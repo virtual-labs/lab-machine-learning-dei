@@ -4,138 +4,103 @@
     "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
     "code": "CSE"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
-    }
-  ],
+  "lab": "Machine Learning Virtual Laboratory",
+  "lab_display_name": "Machine Learning Virtual Laboratory",
+  "phase": "3-ext",
+  "collegeName": "DLBG",
+  "baseUrl": "ml-dei.vlabs.ac.in",
+  "introduction": "Machine Learning (ML) is a fundamental component of modern engineering, science, and data-driven decision-making. Its applications span diverse domains such as healthcare, finance, manufacturing,and intelligent systems, making it an essential part of contemporary academic curricula.<br>The proposed Machine Learning Virtual Laboratory is a web-based platform designed to provide an interactive and experiential learning environment for understanding core ML concepts. It enables learners to explore algorithms, work with datasets, and visualize results through structured simulations and guided workflows. <br>The lab emphasizes conceptual clarity, practical exposure, and step-by-step learning, allowing users to understand how machine learning models are built, trained, and evaluated. By integrating theoretical knowledge with hands-on experimentation, the platform supports effective learning and skill development in machine learning.",
+  "experiments": [
+  {
+    "name": "Data Preprocessing and Feature Engineering",
+    "short-name": "data-preprocessing",
+    "repo": "https://github.com/virtual-labs/exp-data-preprocessing-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Linear Regression",
+    "short-name": "linear-regression",
+    "repo": "https://github.com/virtual-labs/exp-linear-regression-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Binary Classification and Decision Boundary Analysis using Logistic Regression",
+    "short-name": "logistic-regression",
+    "repo": "https://github.com/virtual-labs/exp-logistic-regression-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "k-Nearest Neighbors (KNN)",
+    "short-name": "knn",
+    "repo": "https://github.com/virtual-labs/exp-knn-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Naïve Bayes Classification for Text and Categorical Data using Prior and Posterior Probabilities",
+    "short-name": "naive-bayes",
+    "repo": "https://github.com/virtual-labs/exp-naive-bayes-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Decision Trees",
+    "short-name": "decision-trees",
+    "repo": "https://github.com/virtual-labs/exp-decision-trees-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Random Forest",
+    "short-name": "random-forest",
+    "repo": "https://github.com/virtual-labs/exp-random-forest-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Support Vector Machine (SVM)",
+    "short-name": "svm",
+    "repo": "https://github.com/virtual-labs/exp-svm-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Clustering: K-Means Algorithm",
+    "short-name": "kmeans",
+    "repo": "https://github.com/virtual-labs/exp-kmeans-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Dimensionality Reduction: Principal Component Analysis (PCA)",
+    "short-name": "pca",
+    "repo": "https://github.com/virtual-labs/exp-pca-dei",
+    "tag": "v1.0.0",
+    "deploy": true
+  }
+],
   "targetAudience": {
     "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+      "Undergraduate students pursuing engineering or science programs with ML components",
+      "Beginner learners seeking structured and guided introduction to machine learning concepts",
+      "Students from institutions with limited access to physical lab infrastructure The platform is designed to accommodate learners with varying levels of prior knowledge, providing a progressive learning experience."
     ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+      "Postgraduate students specializing in Machine Learning, Artificial Intelligence, and Data Science",
+      "Faculty members teaching ML-related courses and laboratory sessions"
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "objective": "The primary objectives of the Machine Learning Virtual Laboratory are: <ul><li>To provide a web-based interactive environment for learning core machine learning concepts.</li><li>To enable hands-on experimentation with algorithms using real-world and benchmark datasets.</li><li>To enhance conceptual understanding through visualization of algorithmic steps and outputs.</li><li>To support guided learning through structured experiment workflows and instructional content.</li><li>To develop analytical and problem-solving skills through practical implementation of ML techniques.</li><li>To facilitate understanding of complete ML workflows, including preprocessing, modeling, and evaluation.</li><li>To ensure accessibility and scalability, allowing learners to use the platform without specialized infrastructure.</li></ul>",
   "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "description": "The Machine Learning Virtual Laboratory is aligned with the standard Machine Learning curricula followed in undergraduate and postgraduate programs.The lab covers all essential topics typically included in ML courses, including: <ul><li>Data Preprocessing and Feature Engineering</li><li>Regression Techniques (Linear Regression) </li><li>Classification Techniques (Logistic Regression, KNN, Naive Bayes, Decision Trees, SVM)</li><li>Ensemble Methods (Random Forests)</li><li>Unsupervised Learning (K-Means Clustering)</li><li>Dimensionality Reduction (Principal Component Analysis)</li></ul>The experiments are designed to follow a structured workflow that includes data preparation, modeltraining, parameter tuning, and performance evaluation. This ensures that learners gain a comprehensive understanding of the complete machine learning pipeline.",
     "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
+      "B.Tech (Computer Science, Electrical Engineering, IT)",
+"M.Tech (AI, Data Science, Analytics)",
+"MCA and related postgraduate programs"
     ]
-
+  }
  
 }
