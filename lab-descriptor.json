@@ -15,56 +15,56 @@
     "name": "Data Preprocessing and Feature Engineering",
     "short-name": "data-preprocessing",
     "repo": "https://github.com/virtual-labs/exp-data-preprocessing-dei",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
     "name": "Linear Regression",
     "short-name": "linear-regression",
     "repo": "https://github.com/virtual-labs/exp-linear-regression-dei",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
     "name": "Binary Classification and Decision Boundary Analysis using Logistic Regression",
     "short-name": "logistic-regression",
     "repo": "https://github.com/virtual-labs/exp-logistic-regression-dei",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
     "name": "k-Nearest Neighbors (KNN)",
     "short-name": "knn",
     "repo": "https://github.com/virtual-labs/exp-knn-dei",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
     "name": "Naïve Bayes Classification for Text and Categorical Data using Prior and Posterior Probabilities",
     "short-name": "naive-bayes",
     "repo": "https://github.com/virtual-labs/exp-naive-bayes-dei",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
     "name": "Decision Trees",
     "short-name": "decision-trees",
     "repo": "https://github.com/virtual-labs/exp-decision-trees-dei",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
     "name": "Random Forest",
     "short-name": "random-forest",
     "repo": "https://github.com/virtual-labs/exp-random-forest-dei",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
     "name": "Support Vector Machine (SVM)",
     "short-name": "svm",
     "repo": "https://github.com/virtual-labs/exp-svm-dei",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   },
   {
@@ -86,16 +86,17 @@
     "UG": [
       "Undergraduate students pursuing engineering or science programs with ML components",
       "Beginner learners seeking structured and guided introduction to machine learning concepts",
-      "Students from institutions with limited access to physical lab infrastructure The platform is designed to accommodate learners with varying levels of prior knowledge, providing a progressive learning experience."
+      "Students from institutions with limited access to physical lab infrastructure",
+      "The platform is designed to accommodate learners with varying levels of prior knowledge, providing a progressive learning experience."
     ],
     "PG": [
       "Postgraduate students specializing in Machine Learning, Artificial Intelligence, and Data Science",
       "Faculty members teaching ML-related courses and laboratory sessions"
     ]
   },
-  "objective": "The primary objectives of the Machine Learning Virtual Laboratory are: <ul><li>To provide a web-based interactive environment for learning core machine learning concepts.</li><li>To enable hands-on experimentation with algorithms using real-world and benchmark datasets.</li><li>To enhance conceptual understanding through visualization of algorithmic steps and outputs.</li><li>To support guided learning through structured experiment workflows and instructional content.</li><li>To develop analytical and problem-solving skills through practical implementation of ML techniques.</li><li>To facilitate understanding of complete ML workflows, including preprocessing, modeling, and evaluation.</li><li>To ensure accessibility and scalability, allowing learners to use the platform without specialized infrastructure.</li></ul>",
+  "objective": "The primary objectives of the Machine Learning Virtual Laboratory are:<ul><li>To provide a web-based interactive environment for learning core machine learning concepts.</li><li>To enable hands-on experimentation with algorithms using real-world and benchmark datasets.</li><li>To enhance conceptual understanding through visualization of algorithmic steps and outputs.</li><li>To support guided learning through structured experiment workflows and instructional content.</li><li>To develop analytical and problem-solving skills through practical implementation of ML techniques.</li><li>To facilitate understanding of complete ML workflows, including preprocessing, modeling, and evaluation.</li><li>To ensure accessibility and scalability, allowing learners to use the platform without specialized infrastructure.</li></ul>",
   "courseAlignment": {
-    "description": "The Machine Learning Virtual Laboratory is aligned with the standard Machine Learning curricula followed in undergraduate and postgraduate programs.The lab covers all essential topics typically included in ML courses, including: <ul><li>Data Preprocessing and Feature Engineering</li><li>Regression Techniques (Linear Regression) </li><li>Classification Techniques (Logistic Regression, KNN, Naive Bayes, Decision Trees, SVM)</li><li>Ensemble Methods (Random Forests)</li><li>Unsupervised Learning (K-Means Clustering)</li><li>Dimensionality Reduction (Principal Component Analysis)</li></ul>The experiments are designed to follow a structured workflow that includes data preparation, modeltraining, parameter tuning, and performance evaluation. This ensures that learners gain a comprehensive understanding of the complete machine learning pipeline.",
+    "description": "The Machine Learning Virtual Laboratory is aligned with the standard Machine Learning curricula followed in undergraduate and postgraduate programs.<br>The lab covers all essential topics typically included in ML courses, including:<br><ul><li>Data Preprocessing and Feature Engineering.</li><li>Regression Techniques (Linear Regression).</li><li>Classification Techniques (Logistic Regression, KNN, Naive Bayes, Decision Trees, SVM).</li><li>Ensemble Methods (Random Forests).</li><li>Unsupervised Learning (K-Means Clustering).</li><li>Dimensionality Reduction (Principal Component Analysis).</li></ul><br>The experiments are designed to follow a structured workflow that includes data preparation, modeltraining, parameter tuning, and performance evaluation. This ensures that learners gain a comprehensive understanding of the complete machine learning pipeline.",
     "universities": [
       "B.Tech (Computer Science, Electrical Engineering, IT)",
 "M.Tech (AI, Data Science, Analytics)",
