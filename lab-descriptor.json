@@ -9,7 +9,7 @@
   "phase": "3-ext",
   "collegeName": "DLBG",
   "baseUrl": "ml-dei.vlabs.ac.in",
-  "introduction": "Machine Learning (ML) is a fundamental component of modern engineering, science, and data-driven decision-making. Its applications span diverse domains such as healthcare, finance, manufacturing,and intelligent systems, making it an essential part of contemporary academic curricula.<br>The proposed Machine Learning Virtual Laboratory is a web-based platform designed to provide an interactive and experiential learning environment for understanding core ML concepts. It enables learners to explore algorithms, work with datasets, and visualize results through structured simulations and guided workflows. <br>The lab emphasizes conceptual clarity, practical exposure, and step-by-step learning, allowing users to understand how machine learning models are built, trained, and evaluated. By integrating theoretical knowledge with hands-on experimentation, the platform supports effective learning and skill development in machine learning.",
+  "introduction": "Machine Learning (ML) has emerged as a foundational pillar of modern engineering, science, and data-driven decision-making, with applications spanning healthcare, finance, manufacturing, and intelligent systems. As a result, it has become an essential component of undergraduate and postgraduate curricula across engineering and allied disciplines.<br>The proposed Machine Learning Virtual Laboratory is designed to cover all essential topics typically included in ML courses, including data preprocessing and feature engineering, regression techniques such as linear regression, classification techniques including logistic regression, KNN, Naive Bayes, decision trees, and SVM, ensemble methods such as random forests, unsupervised learning through K-means clustering, and dimensionality reduction using principal component analysis. This comprehensive coverage ensures that the lab supports the core learning objectives of standard ML courses.<br>The platform is developed as a web-based, interactive environment that enables learners to explore algorithms, work with datasets, and visualize results through structured simulations and guided workflows. Each experiment follows a systematic process involving data preparation, model training, parameter tuning, and performance evaluation. This structured approach allows learners to gain a complete understanding of the machine learning pipeline while developing strong conceptual clarity and practical skills.<br>Overall, the Machine Learning Virtual Laboratory aims to provide a unified, scalable, and pedagogically sound framework for machine learning education, contributing to the standardization and improvement of practical ML training across academic institutions.",
   "experiments": [
   {
     "name": "Data Preprocessing and Feature Engineering",
@@ -96,12 +96,24 @@
   },
   "objective": "The primary objectives of the Machine Learning Virtual Laboratory are:<ul><li>To provide a web-based interactive environment for learning core machine learning concepts.</li><li>To enable hands-on experimentation with algorithms using real-world and benchmark datasets.</li><li>To enhance conceptual understanding through visualization of algorithmic steps and outputs.</li><li>To support guided learning through structured experiment workflows and instructional content.</li><li>To develop analytical and problem-solving skills through practical implementation of ML techniques.</li><li>To facilitate understanding of complete ML workflows, including preprocessing, modeling, and evaluation.</li><li>To ensure accessibility and scalability, allowing learners to use the platform without specialized infrastructure.</li></ul>",
   "courseAlignment": {
-    "description":"The Machine Learning Virtual Laboratory is aligned with the standard Machine Learning curricula followed in undergraduate and postgraduate programs.<br><br>The lab covers all essential topics typically included in ML courses, including:<ul><li>Data Preprocessing and Feature Engineering</li><li>Regression Techniques (Linear Regression)</li><li>Classification Techniques (Logistic Regression, KNN, Naive Bayes, Decision Trees, SVM)</li><li>Ensemble Methods (Random Forests)</li><li>Unsupervised Learning (K-Means Clustering)</li><li>Dimensionality Reduction (Principal Component Analysis)</li></ul><p>The experiments are designed to follow a structured workflow that includes data preparation, model training, parameter tuning, and performance evaluation. This ensures that learners gain a comprehensive understanding of the complete machine learning pipeline.</p>",
-      "universities": [
-      "B.Tech (Computer Science, Electrical Engineering, IT)",
-      "M.Tech (AI, Data Science, Analytics)",
-      "MCA and related postgraduate programs"
-    ]
+    "description":"The Machine Learning Virtual Laboratory is aligned with AICTE and UGC model curricula for undergraduate and postgraduate programs in Computer Science, Electrical Engineering, Information Technology, and Data Science. The proposed experiments correspond directly to core Machine Learning laboratory components prescribed in standard Indian university syllabi, ensuring relevance, uniformity, and academic integration. Representative institutions offering similar laboratory components include (but are not limited to):",
+      "universities":[
+"Indian Institute of Technology Kharagpur, Kharagpur",
+"Indian Institute of Technology Palakkad, Palakkad",
+"Indian Institute of Technology (Indian School of Mines), Dhanbad",
+"National Institute of Technology Warangal, Warangal",
+"National Institute of Technology Tiruchirappalli, Tiruchirappalli",
+"National Institute of Technology Karnataka, Surathkal",
+"International Institute of Information Technology Hyderabad, Hyderabad",
+"Indraprastha Institute of Information Technology Delhi, New Delhi",
+"Andhra University, Visakhapatnam",
+"University of Mumbai, Mumbai",
+"Gokaraju Rangaraju Institute of Engineering and Technology, Hyderabad",
+"Marri Laxman Reddy Institute of Technology and Research, Hyderabad",
+"Mysore Institute of Technology, Mysuru",
+"Malla Reddy College of Engineering and Technology, Hyderabad",
+"Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai"
+]
   }
- 
+
 }
