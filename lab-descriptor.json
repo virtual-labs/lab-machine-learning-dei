@@ -36,7 +36,7 @@
     "name": "k-Nearest Neighbors (KNN)",
     "short-name": "knn",
     "repo": "https://github.com/virtual-labs/exp-knn-dei",
-    "tag": "v1.0.1",
+    "tag": "v1.0.0",
     "deploy": true
   },
   {
